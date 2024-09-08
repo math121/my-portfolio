@@ -1,7 +1,18 @@
+import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { routeTree } from "./route";
+
+const router = createRouter({ routeTree });
+
+declare module "@tanstack/react-router" {
+  interface Register {
+    router: typeof router;
+  }
+}
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">My Portfolio</h1>
+      <RouterProvider router={router} />
     </>
   );
 }
