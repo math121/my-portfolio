@@ -11,6 +11,7 @@ export const ProjectsPage = () => {
   const data = [
     {
       label: "OfficeBook",
+      value: "officebook",
       content: [
         "officebook main page.png",
         "officebook login page.png",
@@ -22,23 +23,24 @@ export const ProjectsPage = () => {
     },
     {
       label: "MarkusAI",
+      value: "markusai",
       content: [],
     },
   ];
 
   return (
     <div>
-      <Tabs orientation="vertical">
+      <Tabs value="officebook" orientation="vertical">
         <TabsHeader
           className="w-32"
           placeholder={undefined}
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          {data.map(({ label }, index) => (
+          {data.map(({ label, value }) => (
             <Tab
-              key={index}
-              value={index}
+              key={value}
+              value={value}
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
@@ -52,8 +54,8 @@ export const ProjectsPage = () => {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          {data.map(({ content }, index) => (
-            <TabPanel key={index} value={index} className="py-0">
+          {data.map(({ value, content }) => (
+            <TabPanel key={value} value={value} className="py-0">
               <Carousel
                 placeholder={undefined}
                 onPointerEnterCapture={undefined}
