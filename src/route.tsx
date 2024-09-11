@@ -11,11 +11,11 @@ import { Home } from "./pages/Home";
 const rootRoute = createRootRoute({
   component: () => (
     <>
-      <div>
+      <nav>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/aboutMe">About me</Link>
-      </div>
+      </nav>
       <Outlet />
     </>
   ),
