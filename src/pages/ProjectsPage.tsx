@@ -33,6 +33,9 @@ export const ProjectsPage = () => {
       <Tabs value="officebook" orientation="vertical">
         <TabsHeader
           className="w-32"
+          indicatorProps={{
+            className: "bg-gray-900",
+          }}
           placeholder={undefined}
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}

@@ -11,10 +11,16 @@ import { Home } from "./pages/Home";
 const rootRoute = createRootRoute({
   component: () => (
     <>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/aboutMe">About me</Link>
+      <nav className="space-x-20 text-center text-xl p-5">
+        <Link to="/" className="no-underline p-4 text-white">
+          Home
+        </Link>
+        <Link to="/projects" className="no-underline p-4 text-white">
+          Projects
+        </Link>
+        <Link to="/aboutMe" className="no-underline p-4 text-white">
+          About me
+        </Link>
       </nav>
       <Outlet />
     </>
