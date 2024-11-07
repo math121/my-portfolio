@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <div className="mx-36 mt-36 place-content-center text-center leading-relaxed">
       <h1>About me</h1>
-      <p>
+      <p className="text-lg">
         {/*Jeg er en utvikler som har fått verdifull erfaring fra salt
         bootcamp og fra prosjekter i universitet. Bacheloroppgaven hvor vi
         samarbeidet med en bedrift for å levere en webapplikasjon var et
