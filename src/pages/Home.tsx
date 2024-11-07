@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="text-center flex place-content-center mt-20">
+    <div className="text-center flex place-content-center mt-20 bg-[#e5e7e0] py-10">
       <div className="py-10 px-32]">
         <h1>Mathangi Pushparajah</h1>
         <h1>Software Developer</h1>

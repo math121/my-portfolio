@@ -7,8 +7,8 @@ import {
 
 export const MarkusAI = () => {
   return (
-    <Card className="w-full flex-row rounded-none shadow-none">
-      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none">
+    <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] py-10">
+      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none mx-5">
         <img
           src="/src/assets/markusai_pictures/home-page.png"
           alt="picture of home page"
@@ -20,7 +20,7 @@ export const MarkusAI = () => {
         <Typography variant="h4" color="blue-gray" className="mb-2 mt-0">
           MarkusAI
         </Typography>
-        <Typography color="gray" className="mb-8 font-normal">
+        <Typography className="mb-8 font-normal">
           An office supply management application where users can check the
           inventory and request for more supplies which then needs to get
           approved by an admin to send out an order.
@@ -32,6 +32,7 @@ export const MarkusAI = () => {
             role="button"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-[#05293b]"
           >
             <span className="[&>svg]:h-8 [&>svg]:w-8 [&>svg]:fill-[#333] flex items-center gap-3">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -46,6 +47,7 @@ export const MarkusAI = () => {
             role="button"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-[#05293b]"
           >
             <span className="[&>svg]:h-8 [&>svg]:w-8 [&>svg]:fill-[#333] flex items-center gap-3">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">

@@ -1,8 +1,8 @@
 export const About = () => {
   return (
-    <div className="mx-36 mt-36 place-content-center text-center leading-relaxed">
+    <div className="mt-32 place-content-center text-center  bg-[#e5e7e0] py-10">
       <h1>About me</h1>
-      <p className="text-lg">
+      <p className="text-lg mx-36">
         {/*Jeg er en utvikler som har fått verdifull erfaring fra salt
         bootcamp og fra prosjekter i universitet. Bacheloroppgaven hvor vi
         samarbeidet med en bedrift for å levere en webapplikasjon var et

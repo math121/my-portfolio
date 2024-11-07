@@ -4,7 +4,7 @@ import { OfficeBook } from "../components/OfficeBook";
 
 export const ProjectsPage = () => {
   return (
-    <div className="space-y-5 py-10">
+    <div className="py-10">
       <OfficeBook />
       <MarkusAI />
       <BachelorThesis />
