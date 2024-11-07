@@ -8,9 +8,9 @@ import {
 export const BachelorThesis = () => {
   return (
     <Card className="w-full flex-row rounded-none shadow-none">
-      <CardHeader shadow={false} className="m-0 w-1/2 rounded-none my-auto">
+      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none">
         <img
-          src={"/src/assets/bachelor-thesis.png"}
+          src="/src/assets/bachelor-thesis.png"
           alt="picture with bachelor thesis text"
           className="w-full"
         />

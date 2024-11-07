@@ -12,7 +12,6 @@
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
     "@tanstack/react-router": "^1.76.1",
-    "my-portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
