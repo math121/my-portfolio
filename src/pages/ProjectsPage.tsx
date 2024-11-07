@@ -1,4 +1,5 @@
 import { ProjectCard } from "../components/ProjectCard";
+import { BachelorThesis } from "../components/BachelorThesis";
 
 export const ProjectsPage = () => {
   const data = [
@@ -6,7 +7,12 @@ export const ProjectsPage = () => {
       image: "/src/assets/officebook_pictures/officebook main page.png",
       type: "",
       name: "OfficeBook",
-      description: "simple office booking system",
+      description:
+        "A web application where users can book or register office spaces." +
+        "Made during my hack week at the salt bootcamp. \nFunctionalties:" +
+        "\n- Book office spaces \n- Filter offices by location \n- Edit/Delete bookings" +
+        "\n- View your current/previous bookings \n- Register new office spaces",
+      points: [],
       links: [
         {
           name: "Frontend",
@@ -22,7 +28,9 @@ export const ProjectsPage = () => {
       image: "/src/assets/markusai_pictures/home-page.png",
       type: "Team project",
       name: "MarkusAI",
-      description: "office supply management system",
+      description:
+        "An office supply management application where users can check the inventory" +
+        "and request for more supplies which then needs to get approved by an admin to send out an order.",
       links: [
         {
           name: "Frontend",
@@ -34,14 +42,6 @@ export const ProjectsPage = () => {
         },
       ],
     },
-    {
-      image: "/src/assets/bachelor-thesis.png",
-      type: "Team project",
-      name: "Bachelor thesis",
-      description:
-        "Web application for registering and reporting of fire safety",
-      links: [],
-    },
   ];
 
   return (
@@ -49,6 +49,7 @@ export const ProjectsPage = () => {
       {data.map((element, index) => (
         <ProjectCard key={index} data={element} />
       ))}
+      <BachelorThesis />
     </div>
   );
 };
