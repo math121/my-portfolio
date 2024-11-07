@@ -19,7 +19,7 @@ export const ProjectsPage = () => {
       ],
     },
     {
-      image: "",
+      image: "/src/assets/markusai_pictures/home-page.png",
       type: "Team project",
       name: "MarkusAI",
       description: "office supply management system",
@@ -35,7 +35,7 @@ export const ProjectsPage = () => {
       ],
     },
     {
-      image: "",
+      image: "/src/assets/bachelor-thesis.png",
       type: "Team project",
       name: "Bachelor thesis",
       description:
@@ -45,7 +45,7 @@ export const ProjectsPage = () => {
   ];
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 py-10">
       {data.map((element, index) => (
         <ProjectCard key={index} data={element} />
       ))}
