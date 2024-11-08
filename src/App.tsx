@@ -1,5 +1,5 @@
 import { RouterProvider, createRouter } from "@tanstack/react-router";
-import { routeTree } from "./route";
+import { routeTree } from "./routes/route";
 
 /*
 color pairing: bg-[#05293b] text-[#e5e7e0], bg-dark, text-light
