@@ -21,14 +21,13 @@ export const OfficeBook = () => {
         </Typography>
         <Typography className="mb-8 font-normal">
           A web application where users can book or register office spaces. Made
-          during my hack week at the salt bootcamp. Functionalties:
-          <ul>
-            <li>Book office spaces</li>
-            <li>Filter offices by location</li>
-            <li>Edit/Delete bookings</li>
-            <li>View your current/previous bookings</li>
-            <li>Register new office spaces</li>
-          </ul>
+          during my hack week at the salt bootcamp. <br />
+          Functionalties:
+          <li>Book office spaces</li>
+          <li>Filter offices by location</li>
+          <li>Edit/Delete bookings</li>
+          <li>View your current/previous bookings</li>
+          <li>Register new office spaces</li>
         </Typography>
 
         <div className="flex gap-5">
