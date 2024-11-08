@@ -5,12 +5,14 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
+import markusAIHomePage from "../assets/markusai_pictures/home-page.png";
+
 export const MarkusAI = () => {
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none mx-5">
         <img
-          src="/src/assets/markusai_pictures/home-page.png"
+          src={markusAIHomePage}
           alt="picture of home page"
           className="w-full"
         />

@@ -5,12 +5,14 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
+import bachelorThesisImage from "../assets/bachelor-thesis.png";
+
 export const BachelorThesis = () => {
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none mx-5 bg-transparent">
         <img
-          src="./src/assets/bachelor-thesis.png"
+          src={bachelorThesisImage}
           alt="picture with text bachelor thesis"
           className="w-full"
         />

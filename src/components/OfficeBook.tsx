@@ -5,12 +5,14 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
+import offbookMainPage from "../assets/officebook_pictures/officebook main page.png";
+
 export const OfficeBook = () => {
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none mx-5">
         <img
-          src="/src/assets/officebook_pictures/officebook main page.png"
+          src={offbookMainPage}
           alt="picture of OfficeBook main page"
           className="w-full"
         />
