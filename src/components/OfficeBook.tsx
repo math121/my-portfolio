@@ -18,10 +18,10 @@ export const OfficeBook = () => {
         />
       </CardHeader>
       <CardBody className="w-1/2">
-        <Typography variant="h4" className="mb-2 mt-0">
+        <Typography variant="h4" className="mb-2 mt-0 font-libre">
           OfficeBook
         </Typography>
-        <Typography className="mb-8 font-normal">
+        <Typography className="mb-8 font-normal font-libre">
           A web application where users can book or register office spaces. Made
           during my hack week at the salt bootcamp. <br />
           Functionalties:

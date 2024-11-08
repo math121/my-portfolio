@@ -17,12 +17,12 @@ export const MarkusAI = () => {
           className="w-full"
         />
       </CardHeader>
-      <CardBody className="w-1/2 whitespace-pre-wrap">
+      <CardBody className="w-1/2">
         <p>Team project</p>
-        <Typography variant="h4" color="blue-gray" className="mb-2 mt-0">
+        <Typography variant="h4" className="mb-2 mt-0 font-libre">
           MarkusAI
         </Typography>
-        <Typography className="mb-8 font-normal">
+        <Typography className="mb-8 font-normal font-libre">
           An office supply management application where users can check the
           inventory and request for more supplies which then needs to get
           approved by an admin to send out an order.

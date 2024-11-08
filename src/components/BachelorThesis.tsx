@@ -19,10 +19,10 @@ export const BachelorThesis = () => {
       </CardHeader>
       <CardBody className="w-1/2">
         <p>Team project</p>
-        <Typography variant="h4" className="mb-2 mt-0">
+        <Typography variant="h4" className="mb-2 mt-0 font-libre">
           Bachelor thesis
         </Typography>
-        <Typography className="mb-8 font-normal">
+        <Typography className="mb-8 font-normal font-libre">
           Web application for registering and reporting of fire safety. The
           application has functionalities for registering projects through a
           form, as well as editing the projects through the form. The users can

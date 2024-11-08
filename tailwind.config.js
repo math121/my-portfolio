@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        ribeye: ['"Ribeye Marrow"', ...defaultTheme.fontFamily.sans],
+        libre: ['"Libre Franklin"', ...defaultTheme.fontFamily.sans],
       },
     },
   },
