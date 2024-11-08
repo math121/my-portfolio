@@ -25,7 +25,12 @@ export const MarkusAI = () => {
         <Typography className="mb-8 font-normal font-libre">
           An office supply management application where users can check the
           inventory and request for more supplies which then needs to get
-          approved by an admin to send out an order.
+          approved by an admin to send out an order. <br />
+          Functionalties:
+          <li>Make requests/update inventory items with integrated GPT</li>
+          <li>Filter through inventory</li>
+          <li>View requests and orders</li>
+          <li>Admins can view users, and update order status</li>
         </Typography>
 
         <div className="flex gap-5">
