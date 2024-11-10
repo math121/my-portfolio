@@ -12,11 +12,11 @@ export const MarkusAI = () => {
   const markusAIImages = [markusAIHomePage];
 
   return (
-    <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] my-10">
+    <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
         <ImageSlider imageList={markusAIImages} />
       </CardHeader>
-      <CardBody className="w-1/2">
+      <CardBody className="w-1/2 py-0">
         <p>Team project</p>
         <Typography variant="h4" className="mb-2 mt-0 font-libre">
           MarkusAI

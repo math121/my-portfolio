@@ -9,7 +9,7 @@ import bachelorThesisImage from "../assets/bachelor-thesis.png";
 
 export const BachelorThesis = () => {
   return (
-    <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] my-10">
+    <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent">
         <img
           src={bachelorThesisImage}
@@ -17,7 +17,7 @@ export const BachelorThesis = () => {
           className="w-full"
         />
       </CardHeader>
-      <CardBody className="w-1/2">
+      <CardBody className="w-1/2 py-0">
         <p>Team project</p>
         <Typography variant="h4" className="mb-2 mt-0 font-libre">
           Bachelor thesis

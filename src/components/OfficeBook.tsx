@@ -24,11 +24,11 @@ export const OfficeBook = () => {
   ];
 
   return (
-    <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] my-10">
+    <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
         <ImageSlider imageList={officeBookImages} />
       </CardHeader>
-      <CardBody className="w-1/2">
+      <CardBody className="w-1/2 py-0">
         <Typography variant="h4" className="mb-2 mt-0 font-libre">
           OfficeBook
         </Typography>
