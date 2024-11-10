@@ -26,7 +26,7 @@ export const OfficeBook = () => {
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
-        <ImageSlider imageList={officeBookImages} />
+        <ImageSlider imageList={officeBookImages} arrowColor="light" />
       </CardHeader>
       <CardBody className="w-1/2 py-0">
         <Typography variant="h4" className="mb-2 mt-0 font-libre">

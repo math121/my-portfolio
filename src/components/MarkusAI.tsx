@@ -14,7 +14,7 @@ export const MarkusAI = () => {
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] py-10">
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
-        <ImageSlider imageList={markusAIImages} />
+        <ImageSlider imageList={markusAIImages} arrowColor="dark" />
       </CardHeader>
       <CardBody className="w-1/2 py-0">
         <p>Team project</p>
