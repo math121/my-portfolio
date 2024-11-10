@@ -10,3 +10,9 @@ export type ProjectData = {
   description: string;
   links: LinkData[];
 };
+
+export type TechStackIconData = {
+  icon: string;
+  text: string;
+  altText: string;
+};
