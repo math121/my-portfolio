@@ -6,18 +6,29 @@ import {
 } from "@material-tailwind/react";
 
 import markusAIHomePage from "../assets/markusai_pictures/home-page.png";
+import chatPage from "../assets/markusai_pictures/chat-page.png";
+import requestsPage from "../assets/markusai_pictures/requests-page.png";
+import inventoryPage from "../assets/markusai_pictures/inventory-page.png";
+import orderPage from "../assets/markusai_pictures/order-page.png";
+import usersPage from "../assets/markusai_pictures/users-page.png";
+import { ImageSlider } from "./ImageSlider";
 
 export const MarkusAI = () => {
+  const markusAIImages = [
+    markusAIHomePage,
+    chatPage,
+    requestsPage,
+    inventoryPage,
+    orderPage,
+    usersPage,
+  ];
+
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] py-10">
-      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none mx-5">
-        <img
-          src={markusAIHomePage}
-          alt="picture of home page"
-          className="w-full"
-        />
+      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
+        <ImageSlider imageList={markusAIImages} arrowColor="dark" />
       </CardHeader>
-      <CardBody className="w-1/2">
+      <CardBody className="w-1/2 py-0">
         <p>Team project</p>
         <Typography variant="h4" className="mb-2 mt-0 font-libre">
           MarkusAI

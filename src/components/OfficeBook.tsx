@@ -5,19 +5,30 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import offbookMainPage from "../assets/officebook_pictures/officebook main page.png";
+import mainPage from "../assets/officebook_pictures/main-page.png";
+import bookingPage from "../assets/officebook_pictures/booking-page.png";
+import myBookingsPage from "../assets/officebook_pictures/mybookings-page.png";
+import loginPage from "../assets/officebook_pictures/login-page.png";
+import signUpPage from "../assets/officebook_pictures/signup-page.png";
+import registerOfficePage from "../assets/officebook_pictures/register-page.png";
+import { ImageSlider } from "./ImageSlider";
 
 export const OfficeBook = () => {
+  const officeBookImages = [
+    mainPage,
+    bookingPage,
+    myBookingsPage,
+    registerOfficePage,
+    loginPage,
+    signUpPage,
+  ];
+
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#05293b] text-[#e5e7e0] py-10">
-      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none mx-5">
-        <img
-          src={offbookMainPage}
-          alt="picture of OfficeBook main page"
-          className="w-full"
-        />
+      <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
+        <ImageSlider imageList={officeBookImages} arrowColor="light" />
       </CardHeader>
-      <CardBody className="w-1/2">
+      <CardBody className="w-1/2 py-0">
         <Typography variant="h4" className="mb-2 mt-0 font-libre">
           OfficeBook
         </Typography>
