@@ -13,7 +13,7 @@ export const MarkusAI = () => {
 
   return (
     <Card className="w-full flex-row rounded-none shadow-none bg-[#e5e7e0] text-[#05293b] py-10">
-      {/* test again */}
+      {/* test again for real real pls */}
       <CardHeader className="m-0 w-1/2 rounded-none my-auto shadow-none bg-transparent mx-3">
         <ImageSlider imageList={markusAIImages} arrowColor="dark" />
       </CardHeader>
