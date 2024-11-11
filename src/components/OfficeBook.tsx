@@ -5,12 +5,12 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import mainPage from "../assets/officebook_pictures/officebook main page.png";
-import bookingPage from "../assets/officebook_pictures/officebook booking page.png";
-import myBookingsPage from "../assets/officebook_pictures/officebook my bookings page.png";
-import loginPage from "../assets/officebook_pictures/officebook login page.png";
-import signUpPage from "../assets/officebook_pictures/officebook sign up page.png";
-import registerOfficePage from "../assets/officebook_pictures/officebook register page.png";
+import mainPage from "../assets/officebook_pictures/main-page.png";
+import bookingPage from "../assets/officebook_pictures/booking-page.png";
+import myBookingsPage from "../assets/officebook_pictures/mybookings-page.png";
+import loginPage from "../assets/officebook_pictures/login-page.png";
+import signUpPage from "../assets/officebook_pictures/signup-page.png";
+import registerOfficePage from "../assets/officebook_pictures/register-page.png";
 import { ImageSlider } from "./ImageSlider";
 
 export const OfficeBook = () => {
